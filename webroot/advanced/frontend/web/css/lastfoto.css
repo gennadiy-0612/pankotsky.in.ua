@@ -1,0 +1,25 @@
+.polframe {
+    display: block;
+    float: left;
+    height: 250px;
+    padding-top: 15px;
+    width: 30px;
+}
+
+.link {
+    background: #d2e397;
+    box-shadow: 0 0 2px #000;
+    display: block;
+    float: left;
+    font: bold 30px/30px tahoma;
+    margin: 0 15px 0 0;
+    text-align: right;
+    text-decoration: none;
+}
+
+.polimage {
+    border: 0 none;
+    height: 200px;
+    margin: 10px 20px;
+    width: 200px;
+}

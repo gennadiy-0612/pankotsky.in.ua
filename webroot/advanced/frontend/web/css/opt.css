@@ -1,0 +1,687 @@
+body {
+    margin: 0 auto;
+    padding: 420px 0 0;
+    width: 1000px;
+}
+
+#main-form {
+    color: #d3e599;
+    padding: 10px 0 0 35px;
+    position: absolute;
+    top: 10px;
+}
+
+.main-input {
+    background: #00a84d;
+    border: 0 solid #c16702;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #fff inset;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    padding: 1px 4px;
+}
+
+#send {
+    color: #d3e599;
+    height: 22px;
+    padding: 0 7px;
+}
+
+.top-right-menu {
+    margin: 0;
+    padding: 15px 0 0 731px;
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+
+.top-right-li {
+    float: right;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.page-link,
+.top-right-li-a {
+    background: #00a84d;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #fff inset;
+    color: #d3e599;
+    margin: 0;
+    padding: 2px 13px;
+    text-decoration: none;
+}
+
+.top-right-li-a:hover, #send:hover {
+    background: #fff;
+    box-shadow: 0 0 2px #fff inset;
+    color: #00a84d;
+}
+
+#info {
+    background: url("http://pankotsky.in.ua/advanced/common/image/base.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #ce442d;
+    font: bold 88px/333px "Comic Sans MS";
+    height: 333px;
+    padding: 0 52px 34px 146px;
+    position: absolute;
+    text-align: right;
+    text-shadow: 0 0 3px #fff;
+    top: 0;
+    width: 802px;
+    z-index: -1;
+}
+
+.main-menu-left-center, .main-menu-right-center {
+    background: #edc98d;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #fff inset, 0 0 3px #fff inset;
+    margin: 17px 0 0 7px;
+    padding: 17px 11px 0 14px;
+    position: absolute;
+    top: 420px;
+}
+
+.main-menu-right-center {
+    margin-left: 840px;
+}
+
+.main-menu-li {
+    list-style-type: none;
+    padding: 0 0 12px;
+}
+
+.main-menu-li-a {
+    border: 2px solid #bd642c;
+    border-radius: 5px;
+    color: #ce442d;
+    display: block;
+    font: 100 28px/33px "Comic Sans MS";
+    text-align: center;
+    text-decoration: none;
+    width: 122px;
+}
+
+.main-menu-li-a:hover {
+    background: #dbb16d;
+    color: #935127;
+}
+
+h1, h2, .h2, h3, h4, h5, h6 {
+    color: #00a84d;
+    font-size: 25px;
+    clear: both;
+}
+
+p, .search {
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.finder p {
+    padding: 0;
+}
+
+.breadcrumb {
+    padding: 0 30px;
+    position: absolute;
+    top: 375px;
+}
+
+.breadcrumb li {
+    color: #d58512;
+    display: block;
+    float: left;
+    font: bold 15px/15px sans-serif;
+    padding: 0 0 0 3px;
+    text-decoration: none;
+}
+
+.breadcrumb li a {
+    color: rgba(92, 101, 255, 0.45);
+    text-decoration: none;
+}
+
+.breadcrumb li a::after {
+    content: " /";
+}
+
+ul.inner {
+    padding: 0 180px 50px;
+}
+
+.inner li {
+    list-style: outside none none;
+    margin: 1px 0;
+}
+
+.inner li a {
+    background: #d2e397;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #fff inset;
+    color: #fff;
+    display: block;
+    padding: 2px 7px;
+    text-decoration: none;
+    text-shadow: 0 0 4px #000;
+}
+
+table, table td {
+    text-align: left;
+}
+
+table {
+    clear: both;
+    margin: 20px 0;
+}
+
+.simple {
+    background: #a1a1a1;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 0;
+    width: 630px;
+}
+
+table.simple tr:nth-child(2n) {
+    background: #d3e599;
+    border-radius: 5px;
+}
+
+h1, h2, .h2, h3, h4, h5, h6, p, ul, ol, table, div {
+    margin: 0;
+    padding: 0 180px;
+}
+
+body h2, .h2 {
+    margin: 0 0 10px 0;
+}
+
+.h2 {
+    font: 100 40px/85px "Gabriola", "Arial Narrow";
+}
+
+#lastfoto {
+    margin-bottom: 270px;
+}
+
+div div, div div h1 {
+    margin: 0;
+    padding: 0 75px;
+}
+
+ul {
+    color: #2c2c2c;
+    list-style-position: inside;
+}
+
+.foot {
+    background: url("http://pankotsky.in.ua/advanced/common/image/base.jpg") no-repeat scroll 0 -1063px rgba(0, 0, 0, 0);
+    font: 40px/85px "Gabriola", "Arial Narrow";
+    height: 100px;
+    margin: 30px 0 0;
+    padding: 123px 0 0;
+    text-align: center;
+    width: 1000px;
+}
+
+p#fullscrean {
+    background: #9f9f9f;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.list-view p.polframe {
+    clear: both;
+}
+
+#album-note p {
+    background: #fff;
+    margin: 99px 0 0 333px;
+    padding: 0;
+    position: absolute;
+    width: 300px;
+}
+
+#album-note .polframe {
+    margin: 0;
+}
+
+#album-note .fotonote {
+    position: absolute;
+    top: 462px;
+}
+
+p.polframe {
+    height: 220px;
+    margin: 5px 10px 0 180px;
+    padding: 0;
+    width: 310px;
+}
+
+#album .link {
+    box-shadow: 0 0 2px #000;
+}
+
+div.finder p.polframe {
+    margin: 5px 10px 0 0;
+    clear: both;
+}
+
+.link {
+    background: #d2e397 none repeat scroll 0 0;
+    display: block;
+    font: bold 30px/200px tahoma;
+    height: 210px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 314px;
+}
+
+.polimage {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+.back {
+    background: #005e2e none repeat scroll 0 0;
+    color: #ed0f01;
+    display: block;
+    font: 900 17px/1px "Comic Sans MS";
+    margin: 0 5px;
+    opacity: 0.7;
+    position: relative;
+    text-align: right;
+    text-shadow: 0 0 1px #fff;
+    top: -65px;
+}
+
+.back:before {
+    background: #d2e397 none repeat scroll 0 0;
+    border-radius: 15px 0 0 15px;
+    content: "";
+    display: block;
+    height: 29px;
+    position: absolute;
+    right: -1px;
+    top: -14px;
+    width: 75px;
+    z-index: -1;
+}
+
+.subtitle::after {
+    background: #d2e397 none repeat scroll 0 0;
+    border-radius: 9px 9px 0 0;
+    color: #000;
+    content: "+38099717747";
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px auto 0;
+    opacity: 1;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff;
+    width: 130px;
+}
+
+.subtitle {
+    color: #fff;
+    display: block;
+    font: bold 15px/15px tahoma;
+    opacity: 1;
+    padding: 13px 10px 0;
+    text-align: center;
+}
+
+.search {
+    background-color: #f89406;
+}
+
+.preview {
+    border-radius: 5px;
+    box-shadow: 0 0 2px #000;
+    margin: 20px 200px;
+    padding: 0;
+}
+
+.preview .item {
+    background: #ce442d;
+    border-radius: 5px;
+    clear: both;
+    color: #fff;
+    display: block;
+    font: 20px/25px "Arial Narrow";
+    margin: 0 160px;
+    opacity: 0.7;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 20px;
+}
+
+div p, div h2, .list-view {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination {
+    margin: 0 auto;
+    position: absolute;
+    top: 375px;
+}
+
+div.list-view {
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+.pagination > li.active > a {
+    background: #00ad47;
+    border-radius: 4px;
+    color: #006031;
+}
+
+.pagination li {
+    display: block;
+    float: left;
+    padding: 0 1px;
+}
+
+.pagination li a, .pagination li span {
+    color: #d3e599;
+    font: 900 20px/20px "Comic Sans MS";
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.pagination li span {
+    color: #fff;
+}
+
+.pagination li a:hover {
+    background: #00ad47;
+    border-radius: 4px;
+    color: #006031;
+}
+
+.summary {
+    color: #d9d9d9;
+    text-align: right;
+}
+
+.page {
+    background-color: #ff5438;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    margin: 0 0 40px;
+    padding: 0 30px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.page:hover {
+    background-color: #fff;
+    box-shadow: 0 0 3px #0000cc;
+    color: #ff5438;
+}
+
+/*page-count*/
+.page-count {
+    text-align: right;
+    color: #005B29;
+}
+
+.page-item {
+    border-bottom: 1px dotted #006600;
+    margin: 0 180px;
+    padding: 20px 0 0;
+    color: #F89406;
+}
+
+.page-link {
+    display: block;
+    float: right;
+    font: 20px/25px "Arial Narrow";
+    margin: 0 185px 0 0;
+    padding: 0 15px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.theme {
+    border-bottom: 1px dotted #00aa50;
+    color: #00aa50;
+    font: 900 20px/20px "Comic Sans MS";
+    margin: 15px 0 5px 25px;
+    padding-bottom: 5px;
+}
+
+.item {
+    color: #14643a;
+    margin: 0 40px;
+}
+
+.all-map li {
+    list-style: outside none none;
+}
+
+.all-map a {
+    color: #ce442d;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.all-map a:hover {
+    background-color: #d2e397;
+    box-shadow: 0 0 2px #0000cc;
+}
+
+.simple-img {
+    background-color: #d2e397;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #000;
+    clear: left;
+    float: left;
+    margin: 20px 20px 20px 0;
+    padding: 5px;
+}
+
+/*hgvcjhgvc*/
+div.lastfoto p.polframe {
+    margin: 10px 5px;
+    padding: 0;
+    width: 310px;
+}
+
+.titlegall {
+    clear: both;
+    text-align: center;
+}
+
+/*fotonotes*/
+div#fotonote.lastfoto div.fotonote {
+    height: 280px;
+}
+
+#fotonote a {
+    padding: 0;
+    color: #fff;
+}
+
+#fotonote h2 {
+    margin: 0 0 10px 170px;
+}
+
+.fotonote {
+    background-color: #fff;
+    height: 230px;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 643px;
+}
+
+.fotonote h2 {
+    font-size: 20px;
+    padding: 0 0 0 325px;
+    margin: 40px 0 -25px 0;
+}
+
+.fotonote p {
+    padding: 100px 5px 0 330px;
+}
+
+.hrefer {
+    color: #487648;
+    text-decoration: none;
+}
+
+.titlegall {
+    padding: 180px 0 0 0;
+    line-height: 150px;
+    height: 50px;
+}
+
+/*afg*/
+#fotonote,
+#fotonote div.fotonote,
+#fotonote h2 {
+    position: static;
+}
+
+#fotonote {
+    margin-top: -240px;
+}
+
+.fotonote,
+#fotonote p {
+    position: absolute;
+}
+
+#fotonote p:last-child {
+    padding: 10px 210px 0 335px;
+}
+
+#lastfoto + #fotonote {
+    margin-bottom: 0;
+}
+
+.fotonote h2 {
+    background: #d2e397;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fff inset;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 0 0 325px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 3px #000;
+    top: 30px;
+    width: 315px;
+}
+
+.fotonote h2 a:hover {
+    color: #005B29;
+    text-shadow: 0 0 3px #000;
+}
+
+.fotonote h2 a {
+    color: #fff;
+
+}
+
+#album {
+    padding-bottom: 25px;
+    z-index: 1;
+}
+
+#ulNavy {
+    height: 45px;
+    margin: 0 1px 1px 330px;
+    padding: 0;
+    position: absolute;
+    top: 456px;
+    z-index: 1;
+}
+
+#ulNavy li {
+    background: #549358;
+    border-radius: 10px;
+    display: block;
+    float: right;
+    font-size: 0;
+    margin: 12px 2px 0;
+    padding: 2px;
+}
+
+.active-a,
+.not-active-a {
+    background: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    height: 17px;
+    width: 17px;
+}
+
+.not-active-a {
+    background: #549358;
+}
+
+.not-active-a:hover,
+.active-a:hover {
+    background: #D2E397;
+    border-radius: 8px;
+}
+
+#full {
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+#full .polimage {
+    height: 100%;
+    max-width: 100%;
+    width: auto;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hide, #hide,
+a#full.link .back {
+    opacity: 0;
+}
+
+#show,
+.show {
+    opacity: 1;
+}
+
+.book {
+    box-shadow: 0 0 3px #000;
+    clear: both;
+    float: left;
+    height: 210px;
+    margin: 5px 15px 5px 0;
+}
+
+.book:nth-child(2n) {
+    float: right;
+}

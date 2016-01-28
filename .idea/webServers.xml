@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a9021ec8-1d96-4c3e-a02e-43533310dc9c" name="pankotsky" url="http://pankotsky.in.ua">
+        <fileTransfer host="pankotsky.in.ua" port="21" rootFolder="/www/pankotsky.in.ua" password="df98df9adf9adf9fdf98df9adf9bdf9adfc4dfc3dfc9" username="gena77">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

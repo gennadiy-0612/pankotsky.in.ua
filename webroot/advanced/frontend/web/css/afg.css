@@ -1,0 +1,63 @@
+.fotonote {
+    position: absolute;
+}
+
+.fotonote h2 {
+    position: absolute;
+    top: 30px;
+}
+
+#album {
+    z-index: 1;
+}
+
+#ulNavy {
+    position: relative;
+    right: -285px;
+    top: -225px;
+    width: 200px;
+    z-index: 1;
+}
+
+#ulNavy li {
+    background: none repeat scroll 0 0 #a1a1a1;
+    border-radius: 6px;
+    display: block;
+    float: left;
+    margin: 12px 2px 0;
+    padding: 2px;
+    font-size: 0px;
+}
+
+li#pre, li#next {
+    color: #fff;
+    font-size: 21px;
+    margin: 0 0 0 10px;
+    padding: 8px;
+}
+
+li#pre {
+    margin: 0 10px 0 0;
+}
+
+#background {
+    z-index: -1;
+}
+
+.active-a,
+.not-active-a{
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+.not-active-a{
+    background: #a1a1a1;
+}
+.not-active-a:hover {
+    background: #5c65ff;
+    border-radius: 5px;
+}

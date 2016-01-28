@@ -1,0 +1,89 @@
+#contact-form {
+    background: none repeat scroll 0 0 #d2e397;
+    margin: 20px 180px 0;
+    padding: 10px;
+}
+
+.field-contactform-name, #contact-form div {
+    padding: 0;
+    margin: 0;
+}
+
+.control-label {
+    display: block;
+    margin: 5px;
+}
+
+.field-contactform-body .control-label {
+    margin-bottom: 90px;
+}
+
+#contact-form input {
+    clear: both;
+    float: right;
+    margin: -25px 0 0;
+}
+
+#contactform-body {
+    float: right;
+    margin: -75px 0 40px;
+    width: 98%;
+}
+
+#contactform-verifycode-image {
+    clear: both;
+    display: block;
+    float: left;
+    margin: -27px 12px 0 144px;
+    position: relative;
+    right: -356px;
+    top: -32px;
+}
+
+.button-send {
+    height: 30px;
+    width: 85px;
+}
+.button-send:hover {
+    box-shadow: 0 0 3px #000;
+    color: #0000cc;
+}
+
+.form-group .btn-primary {
+    height: 30px;
+    left: -8px;
+    margin: 8px;
+    position: relative;
+    top: -31px;
+    width: 85px;
+}
+
+.help-block, .help-block-error {
+    color: #ff2804;
+    height: 20px;
+    line-height: 20px;
+    margin: -23px 0 0 125px;
+    padding: 0 4px;
+    position: absolute;
+    width: 332px;
+}
+
+.field-contactform-body p.help-block.help-block-error {
+    margin: -108px 0 0 60px;
+    width: 397px;
+}
+
+.field-contactform-verifycode p.help-block.help-block-error {
+    margin: -58px 0 0 133px;
+    width: 300px;
+}
+
+.field-contactform-verifycode .control-label {
+    position: relative;
+    top: -35px;
+}
+
+.field-contactform-verifycode .form-control {
+    margin: -16px 0 0;
+    width: 115px;
+}
